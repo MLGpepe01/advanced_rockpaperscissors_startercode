@@ -4,32 +4,43 @@
   <head>
       <title>RPS Game</title>
       <!-- Link CSS here -->
-      
+      <link rel="stylesheet" href="style.css" type="text/css" />
       <!-- Link JQuery here -->
-      
+      <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
       <!-- Link Javascript File here -->
-      
+      <script type="text/javascript" src="script.js"></script>
       <!-- Latest compiled and minified Bootstrap CSS -->
       
   </head>
 
   <body>
-      <!-- TASK 1: In the div below. 
+      <!-- TASK 1: In the div below.
+      
         1. In a header tag, add a title.
+        
         2. In a paragraph tag, add instructions on how to play the game.
+         
         3. Add a RPS image.
+        
         4. Add input box and button .
+        
         5. Add divs to record User Choice and Computer Choice.
+        
         6. Add a div to record the Winner.
      -->
+     <p>To Play: Type Rock, Paper, or Scissors into the Input Field</p>
     <div class="container text-center">
-    
-      
+      <h1>Rock Paper Scissors</h1>
+    <img src='http://static1.1.sqspcdn.com/static/f/278256/2831214/1239158472687/RPS+versus.jpg?token=eWFGxsJ87M5Pc6VeVpNntWAhohM%3D'></img>
+      <input type="text" name="RPS"/>
+      <button>Shoot</button>
 
 
     
     </div>
-
+   <div class='wins'>
+     <p id="Winner."></p>
+   </div>
   </body>
 
 </html>
