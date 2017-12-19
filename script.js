@@ -15,16 +15,84 @@
         // Clear the input box for the next choice
 
 // *************************** YOUR CODE BELOW *******************************
+
+
+
+
 //******************TEST EARLY AND OFTEN USING console.log() ******************
 //****************** SERIOUSLY TEST USING console.log()!!! ******************
 
 //GLOBAL VARIABLES
 
 
-
+/* global $*/
 //FUNCTIONS
+
 
 
 
 // DOCUMENT READY FUNCTION
 
+$( document ).ready(function() {
+    
+    
+   var userChoice = $("#inp").val();
+    var computerChoice = Math.floor(math.random()*3);
+    if (computerChoice === 1){
+        computerChoice = "rock";
+    }else if(computerChoice ===2){
+        computerChoice = "paper";
+    }
+    else{
+        computerChoice = "scissors";
+    }
+
+
+else{
+    computerChoice = "scissors";
+}           return "YOU LOSE"
+        }
+        else if(computerChoice === scissors){
+            return "YOU WON"
+        }
+    else if (userChoice === paper){
+        if(computerChoice === scissors){
+            return "YOU LOST"
+        }
+        if(computerChoice === rock){
+            return "YOU WON"
+        }
+    }
+    else if(userChoice === scissors){
+        if(computerChoice === paper){
+            return "YOU WON"
+        }
+        if(computerChoice === rock){
+            return "HAHA YOU LOST!"
+        } 
+        
+    }    
+
+    else{
+        return "error"
+        
+       }    
+    }
+    
+});
+ 
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    console.log( "ready!" );
+});
